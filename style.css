@@ -1,1 +1,42 @@
 
+#animalList {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 50px;
+    background-color: antiquewhite;
+}
+
+#animalName {
+    font-size: 50px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+    border: 36px;
+}
+
+#animalDetails { 
+    text-align: center;
+
+}
+
+#animalImage {
+    height: 300px
+}
+
+
+#animalVotes {
+
+    text-align: center;
+    font-size: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+

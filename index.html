@@ -2,27 +2,24 @@
 <html>
 <head>
     <title>Animal Details</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-  <h1>Code Challenge </h1>
+  <h1>Click Your Favorite Cutie To Vote</h1>
+  <hr>
     <div id="animalList"></div>
-
-    <div id="animalDetails" style="display:none;">
+<hr>
+    <div id="animalDetails">
         <h2 id="animalName"></h2>
         <img id="animalImage" src="" alt="Animal Image" />
+        <hr>
         <p id="animalVotes"></p>
+        <hr>
         <button id="voteButton">Add Vote</button>
         <button id="resetButton">Reset Votes</button>
     </div>
 
     <div>
-        <h2>Add a New Animal</h2>
-        <form id="addAnimalForm">
-            <input type="text" id="newAnimalName" placeholder="Animal Name" required />
-            <input type="text" id="newAnimalImage" placeholder="Image URL" required />
-            <button type="submit">Add Animal</button>
-        </form>
-    </div>
 
     <script src="script.js"></script>
 </body>

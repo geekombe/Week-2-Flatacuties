@@ -20,7 +20,6 @@ document.getElementById('resetButton').addEventListener('click', function() {
     if (currentAnimal) {
         currentAnimal.votes = 0;
         document.getElementById('animalVotes').textContent = `Votes: ${currentAnimal.votes}`;
-
     }
   });
     
