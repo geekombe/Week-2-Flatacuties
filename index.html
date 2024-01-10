@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal Details</title>
+</head>
+<body>
+  <h1>Code Challenge </h1>
+    <div id="animalList"></div>
+
+    <div id="animalDetails" style="display:none;">
+        <h2 id="animalName"></h2>
+        <img id="animalImage" src="" alt="Animal Image" />
+        <p id="animalVotes"></p>
+        <button id="voteButton">Add Vote</button>
+        <button id="resetButton">Reset Votes</button>
+    </div>
+
+    <div>
+        <h2>Add a New Animal</h2>
+        <form id="addAnimalForm">
+            <input type="text" id="newAnimalName" placeholder="Animal Name" required />
+            <input type="text" id="newAnimalImage" placeholder="Image URL" required />
+            <button type="submit">Add Animal</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
